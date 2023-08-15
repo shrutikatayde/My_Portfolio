@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <span id="top"></span>
+    <header>
+      <div class="logo">
+        <h2>
+          <span class="logo-icon">
+            <span class="lab la-fly"></span>
+          </span>
+          Oraimy
+        </h2>
+      </div>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Service</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="more-links">
+        <a href="" class="btn">Contact me</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-flex">
+          <div class="hero-desc">
+            <h1>Shrutika Tayde <span class="las la-hand-spock"></span></h1>
+            <div class="job-title">
+              <span></span>
+              <h3>Full-Stack Web Developer</h3>
+            </div>
+            <div class="job-desc">
+              <p>
+                I'm a Full-Stack Web Developer based in Maharashtra and<br />
+                I'm very passionate and dedicated to my work
+              </p>
+            </div>
+            <div class="hero-btns">
+              <a href="" class="btn">
+                Say Hello <span class="lab la-telegram-plane"></span>
+              </a>
+              <a href="" class="btn">
+                My Work <span class="las la-arrow-up"></span>
+              </a>
+            </div>
+            <div class="hero-icons">
+              <span>Follow me:</span>
+
+              <div>
+                <div><span class="lab la-behance"></span></div>
+                <div><span class="lab la-dribbble"></span></div>
+                <div><span class="lab la-instagram"></span></div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-img">
+            <div class="hero-img-inner">
+              <img src="./assets/herooo.png" alt="" />
+              <div class="welcome">
+                <div class="welcome-inner">
+                  <img src="./assets//welcoome.png" alt="" />
+                  <span class="las la-play"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about-wrapper">
+            <div class="exp-num">
+              <div>
+                <h1>10</h1>
+                <span>Years of Experience</span>
+                <h3>SHRUTIKA TAYDE</h3>
+              </div>
+            </div>
+            <div class="about-info">
+              <h2 class="section-head">About Me <span class="line"></span></h2>
+              <p>
+                With 10 years experience as professional Web developer, I have
+                acquire the skills and knowledege necessary to make your project
+                a success...
+              </p>
+              <div class="about-btns">
+                <a href="" class="btn"
+                  >Download CV <span class="las la-file-contract"></span
+                ></a>
+                <img src="" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="area">
+        <div class="container">
+          <div class="area-wrapper">
+            <div class="area-desc">
+              <h2 class="section-head block">
+                My expert
+                <br />
+                areas <span class="line"></span>
+              </h2>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum quo vitae.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus sapiente cum.
+              </p>
+              <div class="area-btns">
+                <a href="" class="btn"
+                  >My Resume <span class="las la-file-contract"></span
+                ></a>
+              </div>
+            </div>
+            <div class="area-details">
+              <input type="radio" name="area" id="skill" />
+              <input type="radio" name="area" id="experience" checked />
+              <input type="radio" name="area" id="education" />
+              <div class="area-labels">
+                <label for="skill" class="skill-label"
+                  >Skills <span class="las la-arrow-up"></span
+                ></label>
+                <label for="experience" class="exp-label"
+                  >Experience <span class="las la-arrow-up"></span
+                ></label>
+                <label for="education" class="edu-label"
+                  >Education <span class="las la-arrow-up"></span
+                ></label>
+              </div>
+              <div class="area-info">
+                <div class="skill-area">
+                  <div>
+                    <div class="skill-icon">
+                      <span class="lab la-figma"></span>
+                    </div>
+                    <small>Figma</small>
+                  </div>
+                  <div>
+                    <div class="skill-icon">
+                      <span class="lab la-adobe"></span>
+                    </div>
+                    <small>After-Effect</small>
+                  </div>
+                  <div>
+                    <div class="skill-icon">
+                      <span class="lab la-adobe"></span>
+                    </div>
+                    <small>Photoshop</small>
+                  </div>
+                  <div>
+                    <div class="skill-icon">
+                      <span class="lab la-adobe"></span>
+                    </div>
+                    <small>XD</small>
+                  </div>
+                  <div>
+                    <div class="skill-icon">
+                      <span class="lab la-adobe"></span>
+                    </div>
+                    <small>Illustrator</small>
+                  </div>
+                  <div>
+                    <div class="skill-icon">
+                      <span class="lab la-adobe"></span>
+                    </div>
+                    <small>Indesign</small>
+                  </div>
+                </div>
+
+                <div class="exp-area">
+                  <div class="experience">
+                    <span>2021- Present</span>
+                    <h4>Suven Consultant Ltd. Pvt.</h4>
+                    <h3><span>Fr</span>ontend Developer</h3>
+                  </div>
+
+                  <div class="experience">
+                    <span>2021- Present</span>
+                    <h4>Suven Consultant Ltd. Pvt.</h4>
+                    <h3><span>Fr</span>ontend Developer</h3>
+                  </div>
+
+                  <div class="experience">
+                    <span>2021- Present</span>
+                    <h4>Suven Consultant Ltd. Pvt.</h4>
+                    <h3><span>Fr</span>ontend Developer</h3>
+                  </div>
+
+                  <div class="experience">
+                    <span>2021- Present</span>
+                    <h4>Suven Consultant Ltd. Pvt.</h4>
+                    <h3><span>Fr</span>ontend Developer</h3>
+                  </div>
+                </div>
+
+                <div class="edu-area">
+                  <div class="experience">
+                    <span>2021- Present</span>
+                    <h4>Suven Consultant Ltd. Pvt.</h4>
+                    <h3><span>Fr</span>ontend Developer</h3>
+                  </div>
+
+                  <div class="experience">
+                    <span>2021- Present</span>
+                    <h4>Suven Consultant Ltd. Pvt.</h4>
+                    <h3><span>Fr</span>ontend Developer</h3>
+                  </div>
+
+                  <div class="experience">
+                    <span>2021- Present</span>
+                    <h4>Suven Consultant Ltd. Pvt.</h4>
+                    <h3><span>Fr</span>ontend Developer</h3>
+                  </div>
+
+                  <div class="experience">
+                    <span>2021- Present</span>
+                    <h4>Suven Consultant Ltd. Pvt.</h4>
+                    <h3><span>Fr</span>ontend Developer</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects-num">
+            <div>
+              <div class="num-count">
+                <h1>219</h1>
+                <span></span>
+              </div>
+              <small>Training</small>
+            </div>
+
+            <div>
+              <div class="num-count">
+                <h1>48</h1>
+                <span></span>
+              </div>
+              <small>Written Books</small>
+            </div>
+
+            <div>
+              <div class="num-count">
+                <h1>527</h1>
+                <span></span>
+              </div>
+              <small>Listeners</small>
+            </div>
+
+            <div>
+              <div class="num-count">
+                <h1>12</h1>
+                <span></span>
+              </div>
+              <small>Owned projects</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="container">
+          <div class="service-wrapper">
+            <h2 class="section-head block">
+              Services<br />
+              I Provide <span class="line"> </span>
+            </h2>
+
+            <div class="service-list">
+              <div class="service active">
+                <div>
+                  <h3>01</h3>
+                  <h2>UI/UX Design</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <span class="las la-arrow-up"></span>
+              </div>
+
+              <div class="service">
+                <div>
+                  <h3>02</h3>
+                  <h2>UI/UX Design</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <span class="las la-arrow-up"></span>
+              </div>
+
+              <div class="service">
+                <div>
+                  <h3>03</h3>
+                  <h2>UI/UX Design</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <span class="las la-arrow-up"></span>
+              </div>
+
+              <div class="service">
+                <div>
+                  <h3>04</h3>
+                  <h2>UI/UX Design</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <span class="las la-arrow-up"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="portfolio">
+        <div class="container">
+          <div class="project-wrapper">
+            <h2 class="section-head block">
+              Look at my <br />
+              recent projects <span class="line"></span>
+            </h2>
+
+            <div class="project-slider-wrapper">
+              <div class="project-slider">
+                <div class="project">
+                  <div
+                    class="project-img"
+                    style="background-image: url(assets/Work_7.jpg)"
+                  ></div>
+                  <div class="project-desc">
+                    <h4>Vimeo</h4>
+                    <h3>Ecommerce Website</h3>
+                  </div>
+                </div>
+
+                <div class="project">
+                  <div
+                    class="project-img"
+                    style="background-image: url(assets/Work_7.jpg)"
+                  ></div>
+                  <div class="project-desc">
+                    <h4>Vimeo</h4>
+                    <h3>Ecommerce Website</h3>
+                  </div>
+                </div>
+
+                <div class="project">
+                  <div
+                    class="project-img"
+                    style="background-image: url(assets/Work_7.jpg)"
+                  ></div>
+                  <div class="project-desc">
+                    <h4>Vimeo</h4>
+                    <h3>Ecommerce Website</h3>
+                  </div>
+                </div>
+
+                <div class="project">
+                  <div
+                    class="project-img"
+                    style="background-image: url(assets/Work_7.jpg)"
+                  ></div>
+                  <div class="project-desc">
+                    <h4>Vimeo</h4>
+                    <h3>Ecommerce Website</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feedbacks">
+        <div class="container">
+          <div class="feedback-wrapper">
+            <h3 class="section-head block">
+              Valuable feedback <br />
+              from my client <span class="line"></span>
+            </h3>
+            <div class="feedback">
+              <div class="feedback-img">
+                <img src="assets/hero.png" alt="" />
+              </div>
+              <div class="feedback-details">
+                <p>
+                  &quot; Awesome website! Easy to use, Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit. Quae odio aspernatur odit
+                  aut eaque eius eveniet ab ducimus error illo molestias soluta
+                  numquam natus iure, cum, cumque provident, corrupti
+                  quis?&quot;
+                </p>
+
+                <h4>
+                  <span class="line"></span>
+                  Albert Walkers
+                </h4>
+
+                <small>Vivaco Group</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blogs" id="blog">
+        <div class="container">
+          <div class="blog-wrapper">
+            <h2 class="section-head block">
+              From my <br />
+              blog posts<span class="line"></span>
+            </h2>
+
+            <div class="blog-list">
+              <div class="blog">
+                <div class="blog-desc">
+                  <div class="date">
+                    <span class="dot"></span>
+                    <span>03, June, 2022</span>
+                  </div>
+                  <h4>lorem lorem lorem</h4>
+                  <a href="">Read More <span class="las la-arrow-up"></span></a>
+                </div>
+                <div class="blog-img">
+                  <img src="assets/ddd.jpg.avif" alt="" />
+                </div>
+              </div>
+
+              <div class="blog">
+                <div class="blog-desc">
+                  <div class="date">
+                    <span class="dot"></span>
+                    <span>03, June, 2022</span>
+                  </div>
+                  <h4>lorem lorem lorem</h4>
+                  <a href="">Read More <span class="las la-arrow-up"></span></a>
+                </div>
+                <div class="blog-img">
+                  <img src="assets/ddd.jpg.avif" alt="" />
+                </div>
+              </div>
+
+              <div class="blog">
+                <div class="blog-desc">
+                  <div class="date">
+                    <span class="dot"></span>
+                    <span>03, June, 2022</span>
+                  </div>
+                  <h4>lorem lorem lorem</h4>
+                  <a href="">Read More <span class="las la-arrow-up"></span></a>
+                </div>
+                <div class="blog-img">
+                  <img src="assets/ddd.jpg.avif" alt="" />
+                </div>
+              </div>
+
+              <div class="blog">
+                <div class="blog-desc">
+                  <div class="date">
+                    <span class="dot"></span>
+                    <span>03, June, 2022</span>
+                  </div>
+                  <h4>lorem lorem lorem lorom</h4>
+                  <a href="">Read More <span class="las la-arrow-up"></span></a>
+                </div>
+                <div class="blog-img">
+                  <img src="assets/ddd.jpg.avif" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="sponsors">
+            <img src="assets/Daco_345178.png" alt="" />
+            <img src="assets/Daco_4052168.png" alt="" />
+            <img src="assets/Daco_345178.png" alt="" />
+            <img src="assets/Daco_4052168.png" alt="" />
+            <img src="assets/Daco_345178.png" alt="" />
+          </div> -->
+        </div>
+      </section>
+
+      <section class="contact-us" id="contact">
+        <div class="container">
+          <div class="contact-wrapper">
+            <div class="contact-img">
+              <div>
+                <img src="assets/welcoome.png" alt="" />
+                <span class="las la-play"></span>
+              </div>
+            </div>
+
+            <div class="contact-info">
+              <h1>Lets work together</h1>
+              <p>
+                You can express yourself however you want and whenever you want,
+                for free. you can customize a template or make your own
+              </p>
+            </div>
+            <div class="contact-btns">
+              <a href="" class="btn"
+                >Say Hello <span class="lab la-telegram-plane"></span
+              ></a>
+            </div>
+          </div>
+
+          <div class="address-wrapper">
+            <div class="address-info">
+              <div class="call">
+                <small>Call</small>
+                <h2>+91 - 8943434344</h2>
+              </div>
+              <div class="email">
+                <small>Email</small>
+                <h2>shrutikatayde03@gmail.com</h2>
+              </div>
+            </div>
+            <div class="contact-icons">
+              <span>Follow me:</span>
+              <div>
+                <div>
+                  <span class="lab la-behance"></span>
+                </div>
+                <div><span class="lab la-dribbble"></span></div>
+                <div>
+                  <span class="lab la-instagram"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-logo">
+          <h2>
+            <span class="logo-icon">
+              <span class="lab la-fly"></span>
+            </span>
+            Oraimy
+          </h2>
+        </div>
+        <span> &copy; 2023 by coder </span>
+      </div>
+    </footer>
+
+    <a href="#top" class="to-top-btn">
+      To top <span class="line"></span>
+    </a>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/kursor"></script>
+
+    <script>
+      new kursor({
+        type: 1,
+        color: "#ffc448",
+        removeDefaultCursor:true,
+      });
+      $(document).ready(function () {
+        $(".project-slider").slick({
+          autoplay: true,
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        });
+      });
+    </script>
+  </body>
+</html>
