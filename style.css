@@ -350,7 +350,7 @@ section.about {
 .exp-num h1 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    font-size: 21rem;
+    font-size: 17rem;
     line-height: 21rem;
     letter-spacing: -10px;
     color: var(--main-color);
@@ -1083,8 +1083,7 @@ footer {
     }
 
     .hero-img {
-        display: flex;
-        flex-direction: row-reverse;
+        display: none
     }
 
     /* .sponsors{
@@ -1159,8 +1158,17 @@ footer {
         font-size: 1.1rem;
     }
 
-    .address-info{
-        display: inline;
+    .address-info {
+        display: inline-block;
+    }
+
+    .address-info,
+    .call {
+        padding-bottom: 1.8rem;
+    }
+
+    .area-labels {
+        display: list-item;
     }
 
 }
