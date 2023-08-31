@@ -1080,12 +1080,14 @@ footer {
     }
 
     .hero-flex {
-        display: block;
-        padding-top: 7rem;
+        display:flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: flex-end;
     }
 
-    .hero-img {
-        display: none
+    .welcome {
+        display: none;   
     }
 
     /* .sponsors{
