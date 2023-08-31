@@ -9,6 +9,7 @@
     --text-grey: rgba(255, 255, 255, .8);
 }
 
+
 * {
     padding: 0;
     margin: 0;
@@ -158,11 +159,11 @@ header a.active {
 }
 
 .hero-desc h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: #fff;
-    letter-spacing: -4px;
     margin-bottom: 1rem;
-    font-weight: 500;
+    font-weight: 600;
+    letter-spacing: .4rem;
 }
 
 .hero-desc h1 span {
@@ -278,15 +279,16 @@ header a.active {
 
 img {
     width: 100%;
+
 }
 
 .hero-img-inner>img {
     width: 80%;
-    margin-bottom: -4px;
+    margin-bottom: 10px;
 }
 
 .welcome {
-    position: absolute;
+    position:absolute;
     right: 30px;
     top: 55%;
     height: 200px;
