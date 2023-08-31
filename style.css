@@ -1014,6 +1014,7 @@ footer {
         width: 100%;
         padding-right: 3rem;
         padding-left: 3rem;
+        justify-items: flex-end;
     }
 }
 
@@ -1083,7 +1084,7 @@ footer {
         display:flex;
         flex-direction: column-reverse;
         align-items: center;
-        justify-content: flex-end;
+        justify-content:space-evenly;
     }
 
     .welcome {
