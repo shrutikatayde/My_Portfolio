@@ -432,6 +432,7 @@ section.about {
 .section-head.block {
     display: block;
     line-height: 3rem;
+    
 }
 
 section.about .section-head {
@@ -598,10 +599,7 @@ section.about .section-head {
 .skill-area>div {
     text-align: center;
     margin-bottom: 1rem;
-
 }
-
-
 
 /* .skill-icon {
     height: 50px;
@@ -625,7 +623,7 @@ section.about .section-head {
 }
 
 .exp-area,
-.edu-area {
+.edu-area{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2.5rem;
