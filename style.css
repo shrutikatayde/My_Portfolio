@@ -1127,8 +1127,8 @@ footer {
 
     .hero-img-inner>img {
         width: 500px;
-        margin-bottom: 70px;
-        margin-top: 70px;
+        margin-bottom: 60px;
+        margin-top: 55px;
 
     }
 
@@ -1217,8 +1217,8 @@ footer {
 
     .hero-img-inner>img {
         width: 400px;
-        margin-bottom: 70px;
-        margin-top: 70px;
+        margin-bottom: 60px;
+        margin-top: 55px;
     }
 
     .hero-btns a:first-child {
@@ -1250,8 +1250,8 @@ footer {
 
     .hero-img-inner>img {
         width: 300px;
-        margin-bottom: 70px;
-        margin-top: 70px;
+        margin-bottom: 60px;
+        margin-top: 55px;
 
     }
 }
