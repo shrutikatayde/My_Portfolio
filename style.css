@@ -1048,9 +1048,11 @@ footer {
         padding-left: 4rem;
         justify-items: flex-end;
     }
+    
 }
 
 @media only screen and (max-width: 1000px) {
+    
 
     .about-wrapper,
     .area-wrapper,
@@ -1125,7 +1127,7 @@ footer {
 
     .hero-img-inner>img {
         width: 500px;
-        margin-bottom: 70px;
+        margin-bottom: 50px;
         margin-top: 100px;
 
     }
@@ -1215,7 +1217,7 @@ footer {
 
     .hero-img-inner>img {
         width: 400px;
-        margin-bottom: 70px;
+        margin-bottom: 50px;
         margin-top: 100px;
     }
 
@@ -1248,7 +1250,7 @@ footer {
 
     .hero-img-inner>img {
         width: 300px;
-        margin-bottom: 70px;
+        margin-bottom: 50px;
         margin-top: 100px;
 
     }
