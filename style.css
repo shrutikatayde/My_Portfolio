@@ -1119,10 +1119,17 @@ footer {
         justify-content: space-evenly;
     }
 
-    .hero-img-inner>img {
-        width: 550px;
-        margin-bottom: 10px;
+    .hero-img{
+        justify-content: center;
     }
+
+    .hero-img-inner>img {
+        width: 500px;
+        margin-bottom: 70px;
+        margin-top: 100px;
+
+    }
+
 
     .welcome {
         display: none;
@@ -1207,7 +1214,7 @@ footer {
     }
 
     .hero-img-inner>img {
-        width: 550px;
+        width: 450px;
         margin-bottom: 70px;
         margin-top: 100px;
     }
@@ -1240,7 +1247,7 @@ footer {
     }
 
     .hero-img-inner>img {
-        width: 320px;
+        width: 350px;
         margin-bottom: 70px;
         margin-top: 100px;
 
