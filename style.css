@@ -1,5 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: lightgray;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader img {
+    height: 100%;
+    width: 100%;
+}
+
+.disppear {
+    animation: vanish 5s forwards;
+}
+
+@keyframes vanish {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+
 :root {
     --main-color: #6244C5;
     --main-dark: #252439;
@@ -180,6 +212,7 @@ header a.active {
 .hero-icons>div {
     display: flex;
     align-items: center;
+
 }
 
 .hero-icons>span {
@@ -196,6 +229,7 @@ header a.active {
     background: #fff;
     border-radius: 50%;
     margin-right: .8rem;
+
 }
 
 .hero-icons>div span {
@@ -1177,8 +1211,9 @@ footer {
     .hero-img-inner>img {
         width: 550px;
         margin-bottom: 70px;
-        margin-top: 100px;    
+        margin-top: 100px;
     }
+
     .hero-btns a:first-child {
         margin-right: 1rem;
     }
@@ -1213,6 +1248,6 @@ footer {
 
     }
 
-    
+
 
 }
