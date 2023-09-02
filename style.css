@@ -375,23 +375,36 @@ section.about {
     justify-content: center;
 }
 
-.exp-num>div {
+.exp-num .my-img {
     background: var(--main-yellow);
-    width: auto;
+    width: 20rem;
+    height: 20rem;
     display: inline-block;
+    padding: 1rem;
+    border: 1px;
+    border-radius: 80px;
+
+
 }
 
-.exp-num h1 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    font-size: 17rem;
-    line-height: 21rem;
-    letter-spacing: -10px;
-    color: var(--main-color);
-    position: relative;
-    margin-top: -4.4rem;
-    right: -1.8rem;
+.exp-num .my-img>img {
+    border: 1px;
+    border-radius: 80px;
 }
+
+
+/* .exp-num h1 {
+    font-family: 'Oswald', sans-serif;
+    /* font-weight: 700;
+    font-size: 10rem; */
+    /* line-height: 21rem; */
+    /* letter-spacing: -10px;*/
+    /* color: var(--main-color); */
+    /* position: relative; */
+    /* /* margin-top: -4.4rem; */
+    /* margin-left: 3rem;  */
+    
+
 
 .exp-num span {
     position: relative;
@@ -585,9 +598,12 @@ section.about .section-head {
 .skill-area>div {
     text-align: center;
     margin-bottom: 1rem;
+
 }
 
-.skill-icon {
+
+
+/* .skill-icon {
     height: 50px;
     width: 50px;
     background: #fff;
@@ -600,11 +616,12 @@ section.about .section-head {
 
 .skill-icon span {
     font-size: 1.4rem;
-}
+} */
 
 .skill-area>div small {
     color: #fff;
     font-size: .9rem;
+    left: 0;
 }
 
 .exp-area,
@@ -638,10 +655,10 @@ section.about .section-head {
     margin-top: 1.5rem;
 }
 
-.projects-num {
+/* .projects-num {
     display: flex;
     justify-content: space-between;
-    margin-top: 7rem;
+    margin-top: 4rem;
     padding: 0rem 3rem;
     text-align: center;
 }
@@ -674,7 +691,7 @@ section.about .section-head {
     margin-top: .5rem;
     color: var(--text-grey);
     font-size: .9rem;
-}
+} */
 
 .services {
     background: var(--sec-dark);
