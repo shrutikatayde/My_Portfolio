@@ -194,8 +194,29 @@ header a.active {
     margin-bottom: 1rem;
     font-weight: 600;
     letter-spacing: .4rem;
+    position: relative;
+    animation: text 3s 1;
+    background-color: var(--main-dark);
 }
-
+.job-title h3{
+    font-size: 30px;
+    color: darkgreen;
+    font-family: Georgia, serif;
+}
+@keyframes text{
+    0%{
+        color: black;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 15px;
+        margin-bottom: -40px;
+        }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
 .hero-desc h1 span {
     color: var(--main-yellow);
     font-size: 3.4rem;
@@ -316,7 +337,7 @@ img {
 
 .hero-img-inner>img {
     width: 80%;
-    margin-bottom: 10px;
+  
 }
 
 .welcome {
@@ -595,7 +616,7 @@ section.about .section-head {
     grid-gap: 2rem;
 }
 
-.skill-area>div {
+.skill-area .skill {
     text-align: center;
     margin-bottom: 1rem;
 }
@@ -615,17 +636,37 @@ section.about .section-head {
     font-size: 1.4rem;
 } */
 
-.skill-area>div small {
+.skill-area .skill small {
     color: #fff;
     font-size: .9rem;
     left: 0;
 }
+
+
+
+.skill:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0);}
 
 .exp-area,
 .edu-area {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2.5rem;
+
+
+}
+
+.experience {
+    background-color: var(--sec-dark);
+    padding: 1rem;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+.experience:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
 
 .experience span {
@@ -765,25 +806,31 @@ section.about .section-head {
 
 .project {
     margin: 1rem;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .project-img {
-    height: 360px;
+    height: 230px;
     background-size: 115%;
     background-repeat: no-repeat;
     border-radius: 5px;
     margin-bottom: 1rem;
     transition: 500ms;
+    max-width: 100%;
 }
 
 .project-img:hover {
     background-size: 125%;
 }
 
+.project-desc{
+    padding: 0 2rem 2rem 2rem;
+}
 .project-desc h4 {
     font-size: 1.1rem;
     font-weight: 400;
     margin-bottom: .5rem;
+    
 }
 
 .project-desc h3 {
@@ -1054,7 +1101,6 @@ footer {
 }
 
 @media only screen and (max-width: 1500px) {
-
     .hero-flex,
     .container {
         width: 100%;
@@ -1066,8 +1112,6 @@ footer {
 }
 
 @media only screen and (max-width: 1000px) {
-
-
     .about-wrapper,
     .area-wrapper,
     .contact-wrapper,
@@ -1108,9 +1152,9 @@ footer {
         justify-content: flex-start;
     }
 
-    .project-img {
+    /* .project-img {
         background-size: cover;
-    }
+    } */
 }
 
 @media only screen and (max-width: 960px) {
@@ -1238,6 +1282,8 @@ footer {
     .hero-btns a:first-child {
         margin-right: 1rem;
     }
+
+    
 }
 
 @media only screen and (max-width: 550px) {
@@ -1266,6 +1312,24 @@ footer {
         width: 300px;
         margin-bottom: 60px;
         margin-top: 55px;
+    }
 
+    .exp-area,
+    .edu-area {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2.5rem;
+    }
+    .about-btns {
+        display:contents;
+        justify-content: space-between;   
+    }
+
+    .about-btns .btn {
+        font-size: 1rem;
+    }
+
+    .project-img{
+        height:150px;
     }
 }
