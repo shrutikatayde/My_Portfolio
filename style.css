@@ -198,25 +198,30 @@ header a.active {
     animation: text 3s 1;
     background-color: var(--main-dark);
 }
-.job-title h3{
+
+.job-title h3 {
     font-size: 30px;
     color: darkgreen;
     font-family: Georgia, serif;
 }
-@keyframes text{
-    0%{
+
+@keyframes text {
+    0% {
         color: black;
         margin-bottom: -40px;
     }
-    30%{
+
+    30% {
         letter-spacing: 15px;
         margin-bottom: -40px;
-        }
-    85%{
+    }
+
+    85% {
         letter-spacing: 8px;
         margin-bottom: -40px;
     }
 }
+
 .hero-desc h1 span {
     color: var(--main-yellow);
     font-size: 3.4rem;
@@ -337,7 +342,7 @@ img {
 
 .hero-img-inner>img {
     width: 80%;
-  
+
 }
 
 .welcome {
@@ -644,9 +649,10 @@ section.about .section-head {
 
 
 
-.skill:hover{
+.skill:hover {
     transform: scale(1.1);
-    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0);}
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0);
+}
 
 .exp-area,
 .edu-area {
@@ -823,14 +829,15 @@ section.about .section-head {
     background-size: 125%;
 }
 
-.project-desc{
+.project-desc {
     padding: 0 2rem 2rem 2rem;
 }
+
 .project-desc h4 {
     font-size: 1.1rem;
     font-weight: 400;
     margin-bottom: .5rem;
-    
+
 }
 
 .project-desc h3 {
@@ -1101,6 +1108,7 @@ footer {
 }
 
 @media only screen and (max-width: 1500px) {
+
     .hero-flex,
     .container {
         width: 100%;
@@ -1112,6 +1120,7 @@ footer {
 }
 
 @media only screen and (max-width: 1000px) {
+
     .about-wrapper,
     .area-wrapper,
     .contact-wrapper,
@@ -1283,7 +1292,7 @@ footer {
         margin-right: 1rem;
     }
 
-    
+
 }
 
 @media only screen and (max-width: 550px) {
@@ -1320,16 +1329,32 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 2.5rem;
     }
+
     .about-btns {
-        display:contents;
-        justify-content: space-between;   
+        display: contents;
+        justify-content: space-between;
     }
 
     .about-btns .btn {
         font-size: 1rem;
     }
 
-    .project-img{
-        height:150px;
+    .project-img {
+        height: 120px;
+        padding: 1rem;
+        background-size: 115%;
+
+        border-radius: 1px;
+        margin-bottom: 1rem;
+
+
     }
+
+
+    .project-desc {
+        padding: 1rem;
+    }
+
+    .project-desc h3 {
+font-size: medium;    }
 }
