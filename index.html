@@ -458,6 +458,68 @@
                     <h3>ArtSpace Taskey</h3>
                   </div>
                 </div>
+
+                <div class="project" id="Card1">
+                  <div class="project-img">
+                    <div class="image-container" id="image1">
+                      <img src="assets/80.png" alt="Image 1" />
+                    </div>
+                    <div class="image-container" id="image2">
+                      <img src="assets/81.png" alt="Image 2" />
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/82.png" alt="Image 3" />
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/83.png" alt="Image 3" />
+                    </div>
+                  </div>
+
+                  <div class="button-container">
+                    <button class="prevButton" id="prevButton">
+                      <i class="las la-step-backward"></i>
+                    </button>
+                    <button class="nextButton" id="nextButton">
+                      <i class="las la-step-forward"></i>
+                    </button>
+                  </div>
+                  <div class="pro-desc"><h3>BookMyShow Clone</h3></div>
+
+                </div>
+
+                <div class="project" id="Card2">
+                  <div class="project-img" id="card1">
+                    <div class="image-container" id="image1">
+                      <img src="assets/70.png" alt="Image 1" />
+                    </div>
+                    <div class="image-container" id="image2">
+                      <img src="assets/71.png" alt="Image 2" />
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/72.png" alt="Image 3" />
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/73.png" alt="Image 3" />
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/74.png" alt="Image 3" />
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/75.png" alt="Image 3" />
+                    </div>
+                  </div>
+
+                  <div class="button-container">
+                    <button class="prevButton" id="prev">
+                      <i class="las la-step-backward"></i>
+                    </button>
+                    <button class="nextButton" id="next">
+                      <i class="las la-step-forward"></i>
+                    </button>
+                  </div>
+                  <div class="pro-desc"><h3>BookMyShow Clone</h3></div>
+
+                </div>
               </div>
             </div>
           </div>
@@ -715,6 +777,41 @@
       // function vanish() {
       //   loader.classList.add("disppear")
       // }
+
+      function createImageSlider(
+        imageContainersId,
+        nextButtonId,
+        prevButtonId
+      ) {
+        const imageContainers = document.querySelectorAll(
+          `#${imageContainersId} .image-container`
+        );
+        let currentIndex = 0;
+
+        function showImage(index) {
+          if (index >= 0 && index < imageContainers.length) {
+            imageContainers[currentIndex].style.display = "none";
+            currentIndex = index;
+            imageContainers[currentIndex].style.display = "block";
+          }
+        }
+        showImage(currentIndex);
+
+        const nextButton = document.getElementById(nextButtonId);
+        nextButton.addEventListener("click", () => {
+          showImage(currentIndex + 1);
+        });
+
+        const prevButton = document.getElementById(prevButtonId);
+        prevButton.addEventListener("click", () => {
+          showImage(currentIndex - 1);
+        });
+      }
+
+      // Create separate image sliders for different divs and buttons
+      createImageSlider("Card1", "nextButton", "prevButton");
+      createImageSlider("Card2", "next", "prev");
+      // Add more as needed
     </script>
   </body>
 </html>
