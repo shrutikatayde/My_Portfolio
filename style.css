@@ -894,7 +894,7 @@ section.about .section-head {
     position: absolute;
     top: 0;
     left: 0;
-    right:0;   
+    right: 0;
     background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
     padding: 5px;
@@ -909,7 +909,7 @@ section.about .section-head {
 
 .image-container:hover .image-text-overlay {
     opacity: 1;
-    
+
 }
 
 .image-text h4 {
@@ -921,7 +921,7 @@ section.about .section-head {
 .image-text p {
     color: white;
     font-size: 13px;
-    padding: 0.5rem 2rem ;
+    padding: 0.5rem 2rem;
     line-height: 1.2rem;
 }
 
@@ -1418,7 +1418,7 @@ footer {
 }
 
 @media only screen and (max-width: 840px) {
-    /* .service {
+    .service {
         display: block;
     }
 
@@ -1432,7 +1432,7 @@ footer {
 
     .service>span {
         display: none;
-    } */
+    }
 
     .address-info h2 {
         font-size: 1.1rem;
@@ -1578,21 +1578,20 @@ footer {
     }
 
     .image-text h4 {
-        font-size: 0.5rem;
+        font-size: 0.51rem;
         padding: 0.2rem;
     }
 
     .image-text p {
         color: white;
         font-size: 8px;
-        padding: 2px 1rem;
-        line-height: 11px;
-        ;
+        padding: 1px 0.3rem;
+        line-height: 10px;
 
     }
 
     .image-text ul {
-        margin-top: 5px;
+        margin-top: 1px;
         color: white;
     }
 
