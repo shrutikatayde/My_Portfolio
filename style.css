@@ -403,9 +403,9 @@ section.about {
 
 .exp-num .my-img {
     background: var(--main-yellow);
-    width: 20rem;
+    width: 23rem;
     display: inline-block;
-    padding: 1rem;
+    padding: 2rem;
     border: 1px;
     border-radius: 80px;
 
@@ -825,31 +825,68 @@ section.about .section-head {
     overflow: hidden;
 }
 
+.project-text {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s;
+    padding: 1rem;
+}
+
+.pro-container:hover .project-text {
+    opacity: 1;
+}
+
+.project-text h4 {
+    color: white;
+    text-align: center;
+    padding:1rem;
+}
+
+.project-text p {
+    color: white;
+    font-size: 13px;
+    padding: 2px;
+    line-height: 1.2rem;
+}
+
+.project-text ul {
+    margin-top: 5px;
+    color: white;
+    padding-left: 2rem;
+}
+
+.project-text li {
+    list-style:circle;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
 .project-img .image-container {
     display: none;
-
 }
 
 .project-img .image-container>img {
     height: 220px;
     background-size: 115%;
-
 }
-
-
 
 .image-container img:hover {
     transform: scale(1.1);
-    /* Zoom in by 10% on hover */
     transition: transform 500ms ease;
-    /* Add a smooth transition effect */
     background-size: 125%;
 }
-
 
 .project-img:hover {
     background-size: 125%;
 }
+
+/* .project h5{
+    position: relative;
+} */
 
 .project-desc {
     padding: 0 2rem 2rem 2rem;
@@ -868,11 +905,11 @@ section.about .section-head {
     display: inline-block;
     padding-bottom: .3rem;
     border-bottom: 1px solid #000;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
 }
 
 .pro-desc {
-    padding: 0 2rem 2rem 2rem;
+    padding: 0 0 2rem 2rem;
 
 }
 
@@ -899,6 +936,8 @@ section.about .section-head {
     /* Vertically center the buttons */
 }
 
+
+
 .nextButton,
 .prevButton {
     bottom: 9rem;
@@ -908,7 +947,7 @@ section.about .section-head {
     border-radius: 1px;
     position: relative;
     font-size: 20px;
-    background-color:rgba(0, 0, 0, 0.517);
+    background-color: rgba(0, 0, 0, 0.517);
     color: #fff;
 }
 
@@ -1421,6 +1460,8 @@ footer {
     }
 
 
+
+
     .project-desc {
         padding: 1rem;
     }
@@ -1446,6 +1487,32 @@ footer {
     .prevButton {
         bottom: 4.5rem;
         /* font-size: 18px; */
+
+    }
+
+    .project-text{
+        padding: 0.2rem;
+    }
+
+    .project-text h4 {
+        padding:0.2rem;
+        font-size: 0.7rem;
+    }
+    
+    .project-text p {
+        color: white;
+        font-size: 10px;
+        padding: 2px;
+        line-height: 11px;;
+
+    }
+    
+    .project-text ul {
+        margin-top: 5px;
+        color: white;
+    }
+    .project-text li{
+        font-size: 0.5rem;
 
     }
 
