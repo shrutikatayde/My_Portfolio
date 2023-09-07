@@ -1016,7 +1016,7 @@ section.about .section-head {
     color: var(--main-dark);
 } */
 
-.feedbacks {
+/* .feedbacks {
     background: var(--sec-dark);
 }
 
@@ -1119,7 +1119,7 @@ section.about .section-head {
 .blog-desc a span {
     font-size: 1.3rem;
     transform: rotate(45deg);
-}
+} */
 
 /* .sponsors {
     justify-content: space-between;
@@ -1292,18 +1292,18 @@ footer {
     .about-wrapper,
     .area-wrapper,
     .contact-wrapper,
-    .feedback,
+    /* .feedback, */
     .blog-list {
         grid-template-columns: 100%;
     }
 
-    .feedback {
+    /* .feedback {
         grid-gap: 2rem;
     }
 
     .feedback-img img {
         width: 300px;
-    }
+    } */
 
     .contact-wrapper {
         grid-gap: 2rem
@@ -1418,7 +1418,7 @@ footer {
 }
 
 @media only screen and (max-width: 840px) {
-    .service {
+    /* .service {
         display: block;
     }
 
@@ -1432,7 +1432,7 @@ footer {
 
     .service>span {
         display: none;
-    }
+    } */
 
     .address-info h2 {
         font-size: 1.1rem;
