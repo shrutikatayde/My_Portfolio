@@ -1,228 +1,276 @@
-
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="icon" href="assets/favicon.png" type="image" />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-  <link rel="stylesheet"
-    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+    />
 
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-
-  <!-- <div class="loader">
+  <body>
+    <!-- <div class="loader">
     <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/b6e0b072897469.5bf6e79950d23.gif" alt="load"></img>
   </div> -->
-  
 
-  <span id="top"></span>
-  <input type="checkbox" name="" id="menu-toggle" />
-  <div class="sm-menu">
-    <ul>
-      <li><a href="#home" class="active">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Service</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#blog">Blog</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </div>
+    <span id="top"></span>
 
-  <header>
-    <div class="logo">
-      <h2>
-        <span class="logo-icon">
-          <span class="lab la-fly"></span>
-        </span>
-        Oraimy
-      </h2>
+    <input type="checkbox" name="" id="menu-toggle" />
+    <div class="sm-menu">
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <!-- <li><a href="#services">Service</a></li> -->
+        <li><a href="#portfolio">Portfolio</a></li>
+        <!-- <li><a href="#blog">Blog</a></li> -->
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </div>
-    <ul>
-      <li><a href="#home" class="active">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Service</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#blog">Blog</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
 
-    <div class="more-links">
-      <a href="" class="btn">Contact me</a>
-    </div>
-    <label for="menu-toggle">
-      <span class="las la-bars"></span>
-    </label>
-  </header>
+    <header>
+      <div class="logo">
+        <h2>
+          <span class="logo-icon">
+            <!-- <span class="lab la-fly"></span> -->
+            <i class="lar la-compass"></i>
+          </span>
+          PORTFOLIO
+        </h2>
+      </div>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <!-- <li><a href="#services">Service</a></li> -->
+        <li><a href="#portfolio">Projects</a></li>
+        <!-- <li><a href="#blog">Blog</a></li> -->
+        <li><a href="#contact">Contact</a></li>
+      </ul>
 
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-flex">
-        <div class="hero-desc">
-          <h1>
-            SHRUTIKA TAYDE
-            <span class="las la-hand-spock"></span>
-          </h1>
-          <div class="job-title">
-            <span></span>
-            <h3>Full-Stack Web Developer</h3>
-          </div>
-          <div class="job-desc">
-            <p>
-              I'm a Full-Stack Web Developer from India and I'm very
-              passionate and dedicated to my work
-            </p>
-          </div>
-          <div class="hero-btns">
-            <a href="" class="btn">
-              Say Hello <span class="lab la-telegram-plane"></span>
-            </a>
-            <a href="" class="btn">
-              My Work <span class="las la-arrow-up"></span>
-            </a>
-          </div>
-          <div class="hero-icons">
-            <span>Follow me:</span>
+      <div class="more-links">
+        <a href="#contact" class="btn">Contact me</a>
+      </div>
+      <label for="menu-toggle">
+        <span class="las la-bars"></span>
+      </label>
+    </header>
 
-            <div>
-              <div><a href="https://www.linkedin.com/in/shrutika-tayde-120469207"><span class="lab la-linkedin"></span></a></div>
-              <div><a href="https://github.com/shrutikatayde"><span class="lab la-github"></span></a></div>
-              <div><a href="https://www.instagram.com/shrutika.tayde03/"><span class="lab la-instagram"></span></a></div>
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-flex">
+          <div class="hero-desc">
+            <h1>
+              SHRUTIKA TAYDE
+              <span class="las la-hand-spock"></span>
+            </h1>
+
+            <div class="job-title">
+              <span></span>
+              <h3>Full-Stack Web Developer</h3>
+            </div>
+            <div class="job-desc">
+              <p>
+                I'm a Full-Stack Web Developer from India and I'm very
+                passionate and dedicated to my work
+              </p>
+            </div>
+            <div class="hero-btns">
+              <a href="#contact" class="btn">
+                Say Hello <span class="lab la-telegram-plane"></span>
+              </a>
+              <a href="#portfolio" class="btn">
+                My Work <span class="las la-arrow-up"></span>
+              </a>
+            </div>
+            <div class="hero-icons">
+              <span>Follow me:</span>
+
+              <div>
+                <div>
+                  <a href="https://www.linkedin.com/in/shrutika-tayde-120469207"
+                    ><span class="lab la-linkedin"></span
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://github.com/shrutikatayde"
+                    ><span class="lab la-github"></span
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://www.instagram.com/shrutika.tayde03/"
+                    ><span class="lab la-instagram"></span
+                  ></a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="hero-img">
-          <div class="hero-img-inner">
-            <img src="./assets/heroo.png" alt="" />
-            <!-- <div class="welcome">
+          <div class="hero-img">
+            <div class="hero-img-inner">
+              <img src="./assets/heroo.png" alt="" />
+              <!-- <div class="welcome">
                 <div class="welcome-inner">
                   <img src="./assets//welcoome.png" alt="" />
                   <span class="las la-play"></span>
                 </div>
               </div> -->
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="about" id="about">
-      <div class="container">
-        <div class="about-wrapper">
-          <div class="exp-num">
-            <div class="my-img">
-              <img src="./assets/shruu (2).png"/> 
-              <!-- <h1>Shrutika P. Tayde</h1> -->
-            </div>
-          </div>
-          <div class="about-info">
-            <h2 class="section-head">About Me <span class="line"></span></h2>
-            <p>
-              I'm Shrutika Tayde, a dedicated Computer Science and Engineering student with a strong programming background and a passion for learning new technologies. I excel in both frontend and backend development and am eager to tackle challenging projects in the tech industry.
-            </p>
-            <div class="about-btns">
-              <a href="" class="btn">Download CV <span class="las la-file-contract"></span></a>
-              <img src="" alt="" />
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="area">
-      <div class="container">
-        <div class="area-wrapper">
-          <div class="area-desc">
-            <h2 class="section-head block">
-              My expert
-              <br />
-              areas <span class="line"></span>
-            </h2>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum quo vitae.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Possimus sapiente cum.
-            </p>
-            <div class="area-btns">
-              <a href="" class="btn">My Resume <span class="las la-file-contract"></span></a>
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about-wrapper">
+            <div class="exp-num">
+              <div class="my-img">
+                <img src="./assets/shruu (2).png" />
+                <!-- <h1>Shrutika P. Tayde</h1> -->
+              </div>
+            </div>
+            <div class="about-info">
+              <h2 class="section-head block">
+                About Me <span class="line"></span>
+              </h2>
+              <p style="justify-content: space-evenly">
+                My name is Shrutika Tayde, I am in my final year, currently
+                pursuing a Bachelor's degree in Computer Science and Engineering
+                at Sipna College of Engineering and Technology. I know several
+                programming languages, including Python, Java, C++, and C. In
+                the field of web development, I am familiar with HTML5, CSS,
+                React, Bootstrap, Tailwind CSS, and more. Additionally, I have
+                experience with MySQL databases. During my third year of
+                engineering, I completed a significant project, and I also
+                completed an internship in the domain of web development.
+              </p>
+              <div class="about-btns">
+                <a
+                  href="https://drive.google.com/file/d/16RhMevNGinOot0D5gZpy6Jqq0xS4eixY/view?usp=drive_link"
+                  class="btn"
+                  target="_blank"
+                  >My Resume <span class="las la-file-contract"></span
+                ></a>
+              </div>
             </div>
           </div>
-          <div class="area-details">
-            <input type="radio" name="area" id="skill" />
-            <input type="radio" name="area" id="experience" checked />
-            <input type="radio" name="area" id="education" />
-            <div class="area-labels">
-              <label for="skill" class="skill-label">Skills <span class="las la-arrow-up"></span></label>
-              <label for="experience" class="exp-label">Experience <span class="las la-arrow-up"></span></label>
-              <label for="education" class="edu-label">Education <span class="las la-arrow-up"></span></label>
+        </div>
+      </section>
+
+      <section class="area">
+        <div class="container">
+          <div class="area-wrapper">
+            <div class="area-desc">
+              <h2 class="section-head block">
+                My Education & 
+                <br />
+                Skills<span class="line"></span>
+              </h2>
+
+              <!-- <p>
+               sas
+              </p>
+              <p>
+              asa
+              </p> -->
             </div>
-            <div class="area-info">
-              <div class="skill-area">
-                <div>
-                  <!-- <div class="skill-icon">
+            <div class="area-details">
+              <input type="radio" name="area" id="skill" />
+              <input type="radio" name="area" id="experience" checked />
+              <input type="radio" name="area" id="education" />
+              <div class="area-labels">
+                <label for="skill" class="skill-label"
+                  >Skills <span class="las la-arrow-up"></span
+                ></label>
+                <label for="experience" class="exp-label"
+                  >Experience <span class="las la-arrow-up"></span
+                ></label>
+                <label for="education" class="edu-label"
+                  >Education <span class="las la-arrow-up"></span
+                ></label>
+              </div>
+              <div class="area-info">
+                <div class="skill-area">
+                  <div class="skill">
+                    <!-- <div class="skill-icon">
                     <span class="lab la-adobe"></span>
                   </div> -->
-                  <img src="./assets/python-7578001.png" alt="">
-                  <small>Python</small>
-                </div>
-                <div>
-                  <!-- <div class="skill-icon">
+                    <img src="./assets/python-7578001.png" alt="" />
+                    <small>Python</small>
+                  </div>
+                  <div class="skill">
+                    <!-- <div class="skill-icon">
                     <span class="lab la-figma"></span>
                   </div> -->
-                  <img src="./assets/s.png" alt="">
-                  <small>CPP</small>
-                </div>
-                <div>
-                  <!-- <div class="skill-icon">
+                    <img src="./assets/s.png" alt="" />
+                    <small>CPP</small>
+                  </div>
+                  <div class="skill">
+                    <!-- <div class="skill-icon">
                     <span class="lab la-adobe"></span>
                   </div> -->
-                  <img src="./assets/html.png" alt="">
-                  <small>HTML5</small>
-                </div>
-                <div>
-                  <!-- <div class="skill-icon">
+                    <img src="./assets/html.png" alt="" />
+                    <small>HTML5</small>
+                  </div>
+                  <div class="skill">
+                    <!-- <div class="skill-icon">
                     <span class="lab la-adobe"></span>
                   </div> -->
-                  <img src="./assets/css.png" alt="">
-                  <small>CSS</small>
-                </div>
-                <div>
-                  <!-- <div class="skill-icon">
+                    <img src="./assets/css.png" alt="" />
+                    <small>CSS</small>
+                  </div>
+                  <div class="skill">
+                    <!-- <div class="skill-icon">
                     <span class="lab la-adobe"></span>
                   </div> -->
-                  <img src="./assets/javascript.png" alt="">
-                  <small>JavaScript</small>
-                </div>
-                <div>
-                  <!-- <div class="skill-icon">
+                    <img src="./assets/javascript.png" alt="" />
+                    <small>JavaScript</small>
+                  </div>
+                  <div class="skill">
+                    <!-- <div class="skill-icon">
                     <span class="lab la-adobe"></span>
                   </div> -->
-                  <img src="./assets/php.png" alt="">
-                  <small>PHP</small>
-                </div>
-              </div>
-
-              <div class="exp-area">
-                <div class="experience">
-                  <span>July-August-2023</span>
-                  <h4>Suven Consultant Ltd. Pvt.</h4>
-                  <h3><span>Fr</span>ontend Developer</h3>
+                    <img src="./assets/php.png" alt="" />
+                    <small>PHP</small>
+                  </div>
                 </div>
 
-                <!-- <div class="experience">
+                <div class="exp-area">
+                  <div class="experience">
+                    <span>July-August-2023</span>
+                    <h4>Suven Consultant & Technology Ltd. Pvt.</h4>
+                    <h3><span>Fr</span>ont-end Developer [Internship]</h3>
+                    <a
+                      href="https://drive.google.com/file/d/1mmWaUXGWMhqXO1N6hmBOiP0QCxrbVxlG/view?usp=sharing"
+                      target="_blank"
+                    >
+                      <h4 style="color: greenyellow">
+                        CERTIFICATE<i
+                          class="las la-external-link-alt"
+                          style="font-size: 1.5rem; padding: 10px"
+                        ></i>
+                      </h4>
+                    </a>
+                  </div>
+
+                  <!-- <div class="experience">
                   <span>2021- Present</span>
                   <h4>Suven Consultant Ltd. Pvt.</h4>
                   <h3><span>Fr</span>ontend Developer</h3>
@@ -239,38 +287,35 @@
                   <h4>Suven Consultant Ltd. Pvt.</h4>
                   <h3><span>Fr</span>ontend Developer</h3>
                 </div> -->
-              </div>
-
-              <div class="edu-area">
-                <div class="experience">
-                  <span>2021- Present</span>
-                  <h4>Suven Consultant Ltd. Pvt.</h4>
-                  <h3><span>Fr</span>ontend Developer</h3>
                 </div>
 
-                <div class="experience">
-                  <span>2021- Present</span>
-                  <h4>Suven Consultant Ltd. Pvt.</h4>
-                  <h3><span>Fr</span>ontend Developer</h3>
-                </div>
+                <div class="edu-area">
+                  <div class="experience">
+                    <span>2020-Present</span>
+                    <h4>Bachelor of Engineering (BE)</h4>
+                    <h4>Branch : Computer Science and Engineering</h4>
+                    <h3>Average CGPA : 9.6</h3>
+                  </div>
 
-                <div class="experience">
-                  <span>2021- Present</span>
-                  <h4>Suven Consultant Ltd. Pvt.</h4>
-                  <h3><span>Fr</span>ontend Developer</h3>
-                </div>
+                  <div class="experience">
+                    <span>2020-Passout</span>
+                    <h4>CLASS 12<sup>th</sup> [HSC Board]</h4>
+                    <h4>General Science (PCMB)</h4>
+                    <h3>Percent : 84.15%</h3>
+                  </div>
 
-                <div class="experience">
-                  <span>2021- Present</span>
-                  <h4>Suven Consultant Ltd. Pvt.</h4>
-                  <h3><span>Fr</span>ontend Developer</h3>
+                  <div class="experience">
+                    <span>2018-Passout</span>
+                    <h4>CLASS 10<sup>th</sup> [SSC Board]</h4>
+
+                    <h3>Percent : 90.00%</h3>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <!-- <div class="projects-num">
+          <!-- <div class="projects-num">
           <div>
             <div class="num-count">
               <h1>219</h1>
@@ -303,335 +348,1100 @@
             <small>Owned projects</small>
           </div>
         </div> -->
-      </div>
-    </section>
-
-    <section class="services" id="services">
-      <div class="container">
-        <div class="service-wrapper">
-          <h2 class="section-head block">
-            Services<br />
-            I Provide <span class="line"> </span>
-          </h2>
-
-          <div class="service-list">
-            <div class="service active">
-              <div>
-                <h3>01</h3>
-                <h2>UI/UX Design</h2>
-              </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <span class="las la-arrow-up"></span>
-            </div>
-
-            <div class="service">
-              <div>
-                <h3>02</h3>
-                <h2>UI/UX Design</h2>
-              </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <span class="las la-arrow-up"></span>
-            </div>
-
-            <div class="service">
-              <div>
-                <h3>03</h3>
-                <h2>UI/UX Design</h2>
-              </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <span class="las la-arrow-up"></span>
-            </div>
-
-            <div class="service">
-              <div>
-                <h3>04</h3>
-                <h2>UI/UX Design</h2>
-              </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <span class="las la-arrow-up"></span>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="projects" id="portfolio">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-head block">
-            Look at my <br />
-            recent projects <span class="line"></span>
-          </h2>
+      <section class="services" id="services">
+        <div class="container">
+          <div class="service-wrapper">
+            <h2 class="section-head block">
+              My all<br />
+              Certifications <span class="line"> </span>
+            </h2>
 
-          <div class="project-slider-wrapper">
-            <div class="project-slider">
-              <div class="project">
-                <div class="project-img" style="background-image: url(assets/Work_7.jpg)"></div>
-                <div class="project-desc">
-                  <h4>Vimeo</h4>
-                  <h3>My Portfolio</h3>
+            <div class="service-list">
+              <div class="service active">
+                <div>
+                  <h3>01</h3>
+                  <h2>DEVTOWN</h2>
                 </div>
+                <p>Full-Stack Web Developement</p>
+                <a
+                  href="https://drive.google.com/file/d/1UXrtZqkshypIhUvXBft8cVCCsiMmjNZJ/view?usp=sharing"
+                  target="_blank"
+                  ><span class="las la-arrow-up"></span
+                ></a>
               </div>
 
-              <div class="project">
-                <div class="project-img" style="background-image: url(assets/Work_7.jpg)"></div>
-                <div class="project-desc">
-                  <h4>Vimeo</h4>
-                  <h3>Ecommerce Website</h3>
+              <div class="service-list">
+                <div class="service">
+                  <div>
+                    <h3>02</h3>
+                    <h2>NPTEL</h2>
+                  </div>
+                  <p>Joy of Computing with Python</p>
+                  <a
+                    href="https://drive.google.com/file/d/1x5dyGv_2Utkl-Aos8gD3WKqsFjrroBRR/view?usp=sharing"
+                    target="_blank"
+                    ><span class="las la-arrow-up"></span
+                  ></a>
                 </div>
-              </div>
 
-              <div class="project">
-                <div class="project-img" style="background-image: url(assets/Work_7.jpg)"></div>
-                <div class="project-desc">
-                  <h4>Vimeo</h4>
-                  <h3>Ecommerce Website</h3>
-                </div>
-              </div>
+                <div class="service-list">
+                  <div class="service">
+                    <div>
+                      <h3>03</h3>
+                      <h2>Google</h2>
+                    </div>
+                    <p>Crash course for Python</p>
+                    <a
+                      href="https://drive.google.com/file/d/1i-AuIQ9yG5efuQF9K0mc0_2L-7UoG_pt/view?usp=sharing"
+                      target="_blank"
+                      ><span class="las la-arrow-up"></span
+                    ></a>
+                  </div>
 
-              <div class="project">
-                <div class="project-img" style="background-image: url(assets/Work_7.jpg)"></div>
-                <div class="project-desc">
-                  <h4>Vimeo</h4>
-                  <h3>Ecommerce Website</h3>
+                  <!-- <div class="service-list">
+                    <div class="service">
+                      <div>
+                        <h3>01</h3>
+                        <h2>Full-Stack Web Developent</h2>
+                      </div>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                      <a href=""><span class="las la-arrow-up"></span></a>
+                    </div>
+                  </div> -->
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="feedbacks">
-      <div class="container">
-        <div class="feedback-wrapper">
-          <h3 class="section-head block">
-            Valuable feedback <br />
-            from my client <span class="line"></span>
-          </h3>
-          <div class="feedback">
-            <div class="feedback-img">
-              <img src="assets/hero.png" alt="" />
-            </div>
-            <div class="feedback-details">
-              <p>
-                &quot; Awesome website! Easy to use, Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Quae odio aspernatur odit
-                aut eaque eius eveniet ab ducimus error illo molestias soluta
-                numquam natus iure, cum, cumque provident, corrupti
-                quis?&quot;
-              </p>
+      <section class="projects" id="portfolio">
+        <div class="container">
+          <div class="project-wrapper">
+            <h2 class="section-head block">
+              Look at my <br />
+              recent projects <span class="line"></span>
+            </h2>
 
-              <h4>
-                <span class="line"></span>
-                Albert Walkers
-              </h4>
+            <div class="project-slider-wrapper">
+              <div class="project-slider">
+                <div class="project">
+                  <div class="pro-container">
+                    <div
+                      class="project-img"
+                      style="background-image: url(assets/3.png)"
+                    >
+                      <div class="project-text">
+                        <h4>
+                          Internship Project 1<br /><small>[Frontend]</small>
+                        </h4>
+                        <p>
+                          At Suven Consultants and Technology Ltd.Pvt.<br />
+                          Technologies used:
+                        </p>
+                        <ul>
+                          <li>HTML5</li>
+                          <li>CSS</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
 
-              <small>Vivaco Group</small>
+                  <div class="project-desc">
+                    <a
+                      href="https://shrutikatayde.github.io/admin-dashboard/"
+                      target="_blank"
+                    >
+                      <h4>Live Demo<i class="las la-external-link-alt"></i></h4>
+                    </a>
+                    <h3>Admin Dashboard</h3>
+                  </div>
+                </div>
+
+                <div class="project">
+                  <div class="pro-container">
+                    <div
+                      class="project-img"
+                      style="background-image: url(assets/5.png)"
+                    >
+                      <div class="project-text">
+                        <h4>
+                          Internship Project 2<br /><small>[Frontend]</small>
+                        </h4>
+                        <p>
+                          At Suven Consultants and Technology Ltd.Pvt.<br />
+                          Technologies used:
+                        </p>
+                        <ul>
+                          <li>HTML5</li>
+                          <li>CSS</li>
+                          <li>JavaScript</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-desc">
+                    <a
+                      href="https://shrutikatayde.github.io/Restaurant-Website/"
+                      target="_blank"
+                    >
+                      <h4>Live Demo<i class="las la-external-link-alt"></i></h4>
+                    </a>
+                    <h3>Restoo Website</h3>
+                  </div>
+                </div>
+
+                <div class="project">
+                  <div class="pro-container">
+                    <div
+                      class="project-img"
+                      style="background-image: url(assets/1.png)"
+                    >
+                      <div class="project-text">
+                        <h4>
+                          Internship Project 3<br /><small>[Frontend]</small>
+                        </h4>
+                        <p>
+                          At Suven Consultants and Technology Ltd.Pvt.<br />
+                          Technologies used:
+                        </p>
+                        <ul>
+                          <li>HTML5</li>
+                          <li>CSS</li>
+                          <li>JavaScript</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-desc">
+                    <a href="https://shrutikatayde.github.io/My_Portfolio/">
+                      <h4>Live Demo<i class="las la-external-link-alt"></i></h4>
+                    </a>
+                    <h3>My Portfolio</h3>
+                  </div>
+                </div>
+
+                <div class="project">
+                  <div class="pro-container">
+                    <div
+                      class="project-img"
+                      style="background-image: url(assets/2.png)"
+                    >
+                      <div class="project-text">
+                        <h4>Taskkey<br /><small>[Frontend]</small></h4>
+                        <p>
+                          Done during fullstack web development course at
+                          Devtown<br />
+                          Technologies used:
+                        </p>
+                        <ul>
+                          <li>HTML5</li>
+                          <li>Bootstrap</li>
+                          <li>JavaScript</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-desc">
+                    <a
+                      href="https://artspaceforall.netlify.app/"
+                      target="_blank"
+                    >
+                      <h4>Live Demo<i class="las la-external-link-alt"></i></h4>
+                    </a>
+                    <h3>ArtSpace Taskey</h3>
+                  </div>
+                </div>
+
+                <div class="project" id="Card0">
+                  <div class="project-img">
+                    <div class="image-container" id="image1">
+                      <img src="assets/t1.png" alt="Image 1" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            DBMS MINI-PROJECT<br /><small>[Backend]</small>
+                          </h4>
+                          <p>
+                            Team-Members: 4<br />
+                            Technologies used:
+                          </p>
+                          <ul>
+                            <li>
+                              Frontend : HTML5, CSS, JavaScript, Bootstrap
+                            </li>
+                            <li>Backend : PHP</li>
+                            <li>Database : MySQL</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-container" id="image2">
+                      <img src="assets/t2.png" alt="Image 2" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            DBMS MINI-PROJECT<br /><small>[Backend]</small>
+                          </h4>
+                          <p>
+                            Team-Members: 4<br />
+                            Technologies used:
+                          </p>
+                          <ul>
+                            <li>
+                              Frontend : HTML5, CSS, JavaScript, Bootstrap
+                            </li>
+                            <li>Backend : PHP</li>
+                            <li>Database : MySQL</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/t3.png" alt="Image 3" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            DBMS MINI-PROJECT<br /><small>[Backend]</small>
+                          </h4>
+                          <p>
+                            Team-Members: 4<br />
+                            Technologies used:
+                          </p>
+                          <ul>
+                            <li>
+                              Frontend : HTML5, CSS, JavaScript, Bootstrap
+                            </li>
+                            <li>Backend : PHP</li>
+                            <li>Database : MySQL</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/t4.png" alt="Image 3" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            DBMS MINI-PROJECT<br /><small>[Backend]</small>
+                          </h4>
+                          <p>
+                            Team-Members: 4<br />
+                            Technologies used:
+                          </p>
+                          <ul>
+                            <li>
+                              Frontend : HTML5, CSS, JavaScript, Bootstrap
+                            </li>
+                            <li>Backend : PHP</li>
+                            <li>Database : MySQL</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/t5.png" alt="Image 3" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            DBMS MINI-PROJECT<br /><small>[Backend]</small>
+                          </h4>
+                          <p>
+                            Team-Members: 4<br />
+                            Technologies used:
+                          </p>
+                          <ul>
+                            <li>
+                              Frontend : HTML5, CSS, JavaScript, Bootstrap
+                            </li>
+                            <li>Backend : PHP</li>
+                            <li>Database : MySQL</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/t6.png" alt="Image 3" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            DBMS MINI-PROJECT<br /><small>[Backend]</small>
+                          </h4>
+                          <p>
+                            Team-Members: 4<br />
+                            Technologies used:
+                          </p>
+                          <ul>
+                            <li>
+                              Frontend : HTML5, CSS, JavaScript, Bootstrap
+                            </li>
+                            <li>Backend : PHP</li>
+                            <li>Database : MySQL</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/t7.png" alt="Image 3" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            DBMS MINI-PROJECT<br /><small>[Backend]</small>
+                          </h4>
+                          <p>
+                            Team-Members: 4<br />
+                            Technologies used:
+                          </p>
+                          <ul>
+                            <li>
+                              Frontend : HTML5, CSS, JavaScript, Bootstrap
+                            </li>
+                            <li>Backend : PHP</li>
+                            <li>Database : MySQL</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/t8.png" alt="Image 3" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            DBMS MINI-PROJECT<br /><small>[Backend]</small>
+                          </h4>
+                          <p>
+                            Team-Members: 4<br />
+                            Technologies used:
+                          </p>
+                          <ul>
+                            <li>
+                              Frontend : HTML5, CSS, JavaScript, Bootstrap
+                            </li>
+                            <li>Backend : PHP</li>
+                            <li>Database : MySQL</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/t9.png" alt="Image 3" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            DBMS MINI-PROJECT<br /><small>[Full-Stack]</small>
+                          </h4>
+                          <p>
+                            Team-Members: 4<br />
+                            Technologies used:
+                          </p>
+                          <ul>
+                            <li>
+                              Frontend : HTML5, CSS, JavaScript, Bootstrap
+                            </li>
+                            <li>Backend : PHP</li>
+                            <li>Database : MySQL</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/t10.png" alt="Image 3" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            DBMS MINI-PROJECT<br /><small>[Full-Stack]</small>
+                          </h4>
+                          <p>
+                            Team-Members: 4<br />
+                            Technologies used:
+                          </p>
+                          <ul>
+                            <li>
+                              Frontend : HTML5, CSS, JavaScript, Bootstrap
+                            </li>
+                            <li>Backend : PHP</li>
+                            <li>Database : MySQL</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/t11.png" alt="Image 3" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            DBMS MINI-PROJECT<br /><small>[Full-Stack]</small>
+                          </h4>
+                          <p>
+                            Team-Members: 4<br />
+                            Technologies used:
+                          </p>
+                          <ul>
+                            <li>
+                              Frontend : HTML5, CSS, JavaScript, Bootstrap
+                            </li>
+                            <li>Backend : PHP</li>
+                            <li>Database : MySQL</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/t12.png" alt="Image 3" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            DBMS MINI-PROJECT<br /><small>[Full-Stack]</small>
+                          </h4>
+                          <p>
+                            Team-Members: 4<br />
+                            Technologies used:
+                          </p>
+                          <ul>
+                            <li>
+                              Frontend : HTML5, CSS, JavaScript, Bootstrap
+                            </li>
+                            <li>Backend : PHP</li>
+                            <li>Database : MySQL</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/t13.png" alt="Image 3" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            DBMS MINI-PROJECT<br /><small>[Full-Stack]</small>
+                          </h4>
+                          <p>
+                            Team-Members: 4<br />
+                            Technologies used:
+                          </p>
+                          <ul>
+                            <li>
+                              Frontend : HTML5, CSS, JavaScript, Bootstrap
+                            </li>
+                            <li>Backend : PHP</li>
+                            <li>Database : MySQL</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="button-container">
+                    <button class="prevButton" id="pre">
+                      <i class="las la-step-backward"></i>
+                    </button>
+                    <button class="nextButton" id="nex">
+                      <i class="las la-step-forward"></i>
+                    </button>
+                  </div>
+                  <div class="pro-desc">
+                    <h3>Tourism Management System</h3>
+                  </div>
+                </div>
+
+                <div class="project" id="Card1">
+                  <div class="project-img">
+                    <div class="image-container" id="image3">
+                      <img src="assets/80.png" alt="Image 3" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            BOOKMYSHOW CLONE<br /><small>[Frontend]</small>
+                          </h4>
+                          <p>
+                            Done during fullstack web development course at
+                            Devtown. There are 3 pages: Home page- /, Movie page: /movies/:id and Plays page: /plays <br />
+                            Technologies used:
+                          </p>
+                          <ul>
+                            <li>React</li>
+                            <li>Tailwind-CSS</li>
+                            <li>TMDB-Database</li>
+                            <li>Razorpay API Integration</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-container" id="image2">
+                      <img src="assets/81.png" alt="Image 2" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            BOOKMYSHOW CLONE<br /><small>[Frontend]</small>
+                          </h4>
+                          <p>
+                            Done during fullstack web development course at
+                            Devtown. There are 3 pages: Home page- /, Movie page: /movies/:id and Plays page: /plays <br />
+                            Technologies used:
+                          </p>
+                          <ul>
+                            <li>React</li>
+                            <li>Tailwind-CSS</li>
+                            <li>TMDB-Database</li>
+                            <li>Razorpay API Integration</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/82.png" alt="Image 3" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            BOOKMYSHOW CLONE<br /><small>[Frontend]</small>
+                          </h4>
+                          <p>
+                            Done during fullstack web development course at
+                            Devtown. There are 3 pages: Home page- /, Movie page: /movies/:id and Plays page: /plays <br />
+                            Technologies used:
+                          </p>
+                          <ul>
+                            <li>React</li>
+                            <li>Tailwind-CSS</li>
+                            <li>TMDB-Database</li>
+                            <li>Razorpay API Integration</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/83.png" alt="Image 3" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            BOOKMYSHOW CLONE<br /><small>[Frontend]</small>
+                          </h4>
+                          <p>
+                            Done during fullstack web development course at
+                            Devtown. There are 3 pages: Home page- /, Movie page: /movies/:id and Plays page: /plays <br />
+                            Technologies used:
+                          </p>
+                          <ul>
+                            <li>React</li>
+                            <li>Tailwind-CSS</li>
+                            <li>TMDB-Database</li>
+                            <li>Razorpay API Integration</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="button-container">
+                    <button class="prevButton" id="prevButton">
+                      <i class="las la-step-backward"></i>
+                    </button>
+                    <button class="nextButton" id="nextButton">
+                      <i class="las la-step-forward"></i>
+                    </button>
+                  </div>
+
+                  <div class="pro-desc">
+                    <h3>BookMyShow Clone</h3>
+                  </div>
+                </div>
+
+                <div class="project" id="Card2">
+                  <div class="project-img" id="card1">
+                    <div class="image-container" id="image1">
+                      <img src="assets/70.png" alt="Image 1" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            INTERNSHIP PROJECT 4<br /><small
+                              >[Full-Stack]</small
+                            >
+                          </h4>
+                          <p>
+                            At Suven Consultants and Technology Pvt.Ltd<br />Technologies
+                            used :
+                          </p>
+
+                          <ul>
+                            <li>
+                              React, Javascript, MaterialUI for styling Redux
+                              Toolkit for State Management
+                            </li>
+                            <li>Strapi for Backend</li>
+                            <li>React Formik for Forms and Validation</li>
+                            <li>Stripe for Payment</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-container" id="image2">
+                      <img src="assets/71.png" alt="Image 2" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            INTERNSHIP PROJECT 4<br /><small
+                              >[Full-Stack]</small
+                            >
+                          </h4>
+                          <p>
+                            At Suven Consultants and Technology Pvt.Ltd<br />Technologies
+                            used :
+                          </p>
+
+                          <ul>
+                            <li>
+                              React, Javascript, MaterialUI for styling Redux
+                              Toolkit for State Management
+                            </li>
+                            <li>Strapi for Backend</li>
+                            <li>React Formik for Forms and Validation</li>
+                            <li>Stripe for Payment</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/72.png" alt="Image 3" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            INTERNSHIP PROJECT 4<br /><small
+                              >[Full-Stack]</small
+                            >
+                          </h4>
+                          <p>
+                            At Suven Consultants and Technology Pvt.Ltd<br />Technologies
+                            used :
+                          </p>
+
+                          <ul>
+                            <li>
+                              React, Javascript, MaterialUI for styling Redux
+                              Toolkit for State Management
+                            </li>
+                            <li>Strapi for Backend</li>
+                            <li>React Formik for Forms and Validation</li>
+                            <li>Stripe for Payment</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/73.png" alt="Image 3" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            INTERNSHIP PROJECT 4<br /><small
+                              >[Full-Stack]</small
+                            >
+                          </h4>
+                          <p>
+                            At Suven Consultants and Technology Pvt.Ltd<br />Technologies
+                            used :
+                          </p>
+
+                          <ul>
+                            <li>
+                              React, Javascript, MaterialUI for styling Redux
+                              Toolkit for State Management
+                            </li>
+                            <li>Strapi for Backend</li>
+                            <li>React Formik for Forms and Validation</li>
+                            <li>Stripe for Payment</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/74.png" alt="Image 3" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            INTERNSHIP PROJECT 4<br /><small
+                              >[Full-Stack]</small
+                            >
+                          </h4>
+                          <p>
+                            At Suven Consultants and Technology Pvt.Ltd<br />Technologies
+                            used :
+                          </p>
+
+                          <ul>
+                            <li>
+                              React, Javascript, MaterialUI for styling Redux
+                              Toolkit for State Management
+                            </li>
+                            <li>Strapi for Backend</li>
+                            <li>React Formik for Forms and Validation</li>
+                            <li>Stripe for Payment</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-container" id="image3">
+                      <img src="assets/75.png" alt="Image 3" />
+                      <div class="image-text-overlay">
+                        <div class="image-text">
+                          <h4>
+                            INTERNSHIP PROJECT 4<br /><small
+                              >[Full-Stack]</small
+                            >
+                          </h4>
+                          <p>
+                            At Suven Consultants and Technology Pvt.Ltd<br />Technologies
+                            used :
+                          </p>
+
+                          <ul>
+                            <li>
+                              React, Javascript, MaterialUI for styling Redux
+                              Toolkit for State Management
+                            </li>
+                            <li>Strapi for Backend</li>
+                            <li>React Formik for Forms and Validation</li>
+                            <li>Stripe for Payment</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="button-container">
+                    <button class="prevButton" id="prev">
+                      <i class="las la-step-backward"></i>
+                    </button>
+                    <button class="nextButton" id="next">
+                      <i class="las la-step-forward"></i>
+                    </button>
+                  </div>
+                  <div class="pro-desc">
+                    <h3>Ecommerce Website</h3>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="blogs" id="blog">
-      <div class="container">
-        <div class="blog-wrapper">
-          <h2 class="section-head block">
-            From my <br />
-            blog posts<span class="line"></span>
-          </h2>
+      <!-- <section class="feedbacks">
+        <div class="container">
+          <div class="feedback-wrapper">
+            <h3 class="section-head block">
+              Valuable feedback <br />
+              from my client <span class="line"></span>
+            </h3>
+            <div class="feedback">
+              <div class="feedback-img">
+                <img src="assets/hero.png" alt="" />
+              </div>
+              <div class="feedback-details">
+                <p>
+                  &quot; Awesome website! Easy to use, Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit. Quae odio aspernatur odit
+                  aut eaque eius eveniet ab ducimus error illo molestias soluta
+                  numquam natus iure, cum, cumque provident, corrupti
+                  quis?&quot;
+                </p>
 
-          <div class="blog-list">
-            <div class="blog">
-              <div class="blog-desc">
-                <div class="date">
-                  <span class="dot"></span>
-                  <span>03, June, 2022</span>
-                </div>
-                <h4>lorem lorem lorem</h4>
-                <a href="">Read More <span class="las la-arrow-up"></span></a>
-              </div>
-              <div class="blog-img">
-                <img src="assets/ddd.jpg.avif" alt="" />
-              </div>
-            </div>
+                <h4>
+                  <span class="line"></span>
+                  Albert Walkers
+                </h4>
 
-            <div class="blog">
-              <div class="blog-desc">
-                <div class="date">
-                  <span class="dot"></span>
-                  <span>03, June, 2022</span>
-                </div>
-                <h4>lorem lorem lorem</h4>
-                <a href="">Read More <span class="las la-arrow-up"></span></a>
-              </div>
-              <div class="blog-img">
-                <img src="assets/ddd.jpg.avif" alt="" />
-              </div>
-            </div>
-
-            <div class="blog">
-              <div class="blog-desc">
-                <div class="date">
-                  <span class="dot"></span>
-                  <span>03, June, 2022</span>
-                </div>
-                <h4>lorem lorem lorem</h4>
-                <a href="">Read More <span class="las la-arrow-up"></span></a>
-              </div>
-              <div class="blog-img">
-                <img src="assets/ddd.jpg.avif" alt="" />
-              </div>
-            </div>
-
-            <div class="blog">
-              <div class="blog-desc">
-                <div class="date">
-                  <span class="dot"></span>
-                  <span>03, June, 2022</span>
-                </div>
-                <h4>lorem lorem lorem lorom</h4>
-                <a href="">Read More <span class="las la-arrow-up"></span></a>
-              </div>
-              <div class="blog-img">
-                <img src="assets/ddd.jpg.avif" alt="" />
+                <small>Vivaco Group</small>
               </div>
             </div>
           </div>
         </div>
+      </section>
 
-        <!-- <div class="sponsors">
+      <section class="blogs" id="blog">
+        <div class="container">
+          <div class="blog-wrapper">
+            <h2 class="section-head block">
+              From my <br />
+              blog posts<span class="line"></span>
+            </h2>
+
+            <div class="blog-list">
+              <div class="blog">
+                <div class="blog-desc">
+                  <div class="date">
+                    <span class="dot"></span>
+                    <span>03, June, 2022</span>
+                  </div>
+                  <h4>lorem lorem lorem</h4>
+                  <a href="">Read More <span class="las la-arrow-up"></span></a>
+                </div>
+                <div class="blog-img">
+                  <img src="assets/ddd.jpg.avif" alt="" />
+                </div>
+              </div>
+
+              <div class="blog">
+                <div class="blog-desc">
+                  <div class="date">
+                    <span class="dot"></span>
+                    <span>03, June, 2022</span>
+                  </div>
+                  <h4>lorem lorem lorem</h4>
+                  <a href="">Read More <span class="las la-arrow-up"></span></a>
+                </div>
+                <div class="blog-img">
+                  <img src="assets/ddd.jpg.avif" alt="" />
+                </div>
+              </div>
+
+              <div class="blog">
+                <div class="blog-desc">
+                  <div class="date">
+                    <span class="dot"></span>
+                    <span>03, June, 2022</span>
+                  </div>
+                  <h4>lorem lorem lorem</h4>
+                  <a href="">Read More <span class="las la-arrow-up"></span></a>
+                </div>
+                <div class="blog-img">
+                  <img src="assets/ddd.jpg.avif" alt="" />
+                </div>
+              </div>
+
+              <div class="blog">
+                <div class="blog-desc">
+                  <div class="date">
+                    <span class="dot"></span>
+                    <span>03, June, 2022</span>
+                  </div>
+                  <h4>lorem lorem lorem lorom</h4>
+                  <a href="">Read More <span class="las la-arrow-up"></span></a>
+                </div>
+                <div class="blog-img">
+                  <img src="assets/ddd.jpg.avif" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <div class="sponsors">
             <img src="assets/Daco_345178.png" alt="" />
             <img src="assets/Daco_4052168.png" alt="" />
             <img src="assets/Daco_345178.png" alt="" />
             <img src="assets/Daco_4052168.png" alt="" />
             <img src="assets/Daco_345178.png" alt="" />
-          </div> -->
-      </div>
-    </section>
+          </div>
+        </div>
+      </section> -->
 
-    <section class="contact-us" id="contact">
+      <section class="contact-us" id="contact">
+        <div class="container">
+          <div class="contact-wrapper">
+            <div class="contact-img">
+              <div>
+                <img src="assets/welcoome.png" alt="" />
+                <span class="las la-play"></span>
+              </div>
+            </div>
+
+            <div class="contact-info">
+              <h1>Lets work together</h1>
+              <p>Feel free to reach out to me through provided contact information. <br> Thank You ! </p>
+            </div>
+            <div class="contact-btns">
+              <a href="https://wa.me/+918010183849" target="_blank" class="btn"
+                >Say Hello <span class="lab la-telegram-plane"></span
+              ></a>
+            </div>
+          </div>
+
+          <div class="address-wrapper">
+            <div class="address-info">
+              <div class="call">
+                <button
+                  style="
+                    padding: 0.8rem 0.8rem 0 0.8rem;
+                    background-color: rgb(95, 87, 142);
+                    border: none;
+                    border-radius: 4px;
+                    margin-bottom: 1rem;
+                  "
+                >
+                  <small style="font-size: 1rem"
+                    ><a href="tel:+918010183849" style="color: white"
+                      >Call me</a
+                    >
+                  </small>
+                </button>
+                <h2>+91 - 8010183849</h2>
+              </div>
+              <div class="email">
+                <button
+                  style="
+                    padding: 0.8rem 0.8rem 0 0.8rem;
+                    background-color: rgb(95, 87, 142);
+                    border: none;
+                    border-radius: 4px;
+                    margin-bottom: 1rem;
+                  "
+                >
+                  <small style="font-size: 1rem">
+                    <a
+                      href="mailto:shrutikatayde03@gmail.com"
+                      style="color: white"
+                      >Send Email</a
+                    >
+                  </small>
+                </button>
+                <h2>shrutikatayde03@gmail.com</h2>
+              </div>
+            </div>
+            <div class="contact-icons">
+              <span>Follow me:</span>
+              <div>
+                <div>
+                  <a href="https://www.linkedin.com/in/shrutika-tayde-120469207"
+                    ><span class="lab la-linkedin"></span
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://github.com/shrutikatayde"
+                    ><span class="lab la-github"></span
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://www.instagram.com/shrutika.tayde03/"
+                    ><span class="lab la-instagram"></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
       <div class="container">
-        <div class="contact-wrapper">
-          <div class="contact-img">
-            <div>
-              <img src="assets/welcoome.png" alt="" />
-              <span class="las la-play"></span>
-            </div>
+        <div class="footer-wrapper">
+          <div class="footer-logo">
+            <h2>
+              <span class="logo-icon">
+                <i class="lar la-compass"></i>
+              </span>
+              PORTFOLIO
+            </h2>
           </div>
-
-          <div class="contact-info">
-            <h1>Lets work together</h1>
-            <p>
-              You can express yourself however you want and whenever you want,
-              for free. you can customize a template or make your own
-            </p>
-          </div>
-          <div class="contact-btns">
-            <a href="" class="btn">Say Hello <span class="lab la-telegram-plane"></span></a>
-          </div>
-        </div>
-
-        <div class="address-wrapper">
-          <div class="address-info">
-            <div class="call">
-              <small>Call</small>
-              <h2>+91 - 8943434344</h2>
-            </div>
-            <div class="email">
-              <small>Email</small>
-              <h2>shrutikatayde03@gmail.com</h2>
-            </div>
-          </div>
-          <div class="contact-icons">
-            <span>Follow me:</span>
-            <div>
-              <div><a href="https://www.linkedin.com/in/shrutika-tayde-120469207"><span class="lab la-linkedin"></span></a></div>
-              <div><a href="https://github.com/shrutikatayde"><span class="lab la-github"></span></a></div>
-              <div><a href="https://www.instagram.com/shrutika.tayde03/"><span class="lab la-instagram"></span></a></div>                                 
-            </div>
-          </div>
+          <span> &copy; Developed by @shrutikatayde. All rights reserved </span>
         </div>
       </div>
-    </section>
-  </main>
+    </footer>
 
-  <footer>
-    <div class="container">
-      <div class="footer-wrapper">
-        <div class="footer-logo">
-          <h2>
-            <span class="logo-icon">
-              <span class="lab la-fly"></span>
-            </span>
-            Oraimy
-          </h2>
-        </div>
-        <span> &copy; 2023 by coder. All rights reserved </span>
-      </div>
-    </div>
-  </footer>
+    <a href="#top" class="to-top-btn"> To top <span class="line"></span> </a>
 
-  <a href="#top" class="to-top-btn"> To top <span class="line"></span> </a>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
 
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="https//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/kursor"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/kursor"></script>
-
-  <script>
-    new kursor({
-      type: 1,
-      color: "#ffc448",
-      removeDefaultCursor: true,
-    });
-    $(document).ready(function () {
-      $(".project-slider").slick({
-        autoplay: true,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 3,
-
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-            },
-          },
-          {
-            breakpoint: 650,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            },
-          },
-        ],
+    <script>
+      new kursor({
+        type: 1,
+        color: "#ffc448",
+        removeDefaultCursor: true,
       });
-    });
+      $(document).ready(function () {
+        $(".project-slider").slick({
+          autoplay: true,
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 3,
 
-    window.addEventListener("scroll", () => {
-      let header = document.querySelector("header");
-      let fixed = header.offsetTop;
+          responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              },
+            },
+            {
+              breakpoint: 800,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+          ],
+        });
+      });
 
-      let scroll = document.querySelector(".to-top-btn");
-      scroll.classList.toggle("show", window.scrollY > 500);
+      window.addEventListener("scroll", () => {
+        let header = document.querySelector("header");
+        let fixed = header.offsetTop;
 
-      header.classList.toggle("fixed", window.pageYOffset > fixed);
-    });
+        let scroll = document.querySelector(".to-top-btn");
+        scroll.classList.toggle("show", window.scrollY > 500);
 
+        header.classList.toggle("fixed", window.pageYOffset > fixed);
+      });
 
-    // let loader = document.querySelector('.loader');
+      // let loader = document.querySelector('.loader');
 
-    // window.addEventListener("load", vanish);
+      // window.addEventListener("load", vanish);
 
-    // function vanish() {
-    //   loader.classList.add("disppear")
-    // }
-  </script>
-</body>
+      // function vanish() {
+      //   loader.classList.add("disppear")
+      // }
 
+      function createImageSlider(
+        imageContainersId,
+        nextButtonId,
+        prevButtonId
+      ) {
+        const imageContainers = document.querySelectorAll(
+          `#${imageContainersId} .image-container`
+        );
+        let currentIndex = 0;
+
+        function showImage(index) {
+          if (index >= 0 && index < imageContainers.length) {
+            imageContainers[currentIndex].style.display = "none";
+            currentIndex = index;
+            imageContainers[currentIndex].style.display = "block";
+          }
+        }
+        showImage(currentIndex);
+
+        const nextButton = document.getElementById(nextButtonId);
+        nextButton.addEventListener("click", () => {
+          showImage(currentIndex + 1);
+        });
+
+        const prevButton = document.getElementById(prevButtonId);
+        prevButton.addEventListener("click", () => {
+          showImage(currentIndex - 1);
+        });
+      }
+
+      // Create separate image sliders for different divs and buttons
+      createImageSlider("Card0", "nex", "pre");
+      createImageSlider("Card1", "nextButton", "prevButton");
+      createImageSlider("Card2", "next", "prev");
+      // Add more as needed
+    </script>
+  </body>
 </html>
